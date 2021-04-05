@@ -1,0 +1,18 @@
+
+html, body, #root, .container
+	height: 100%
+	width: 100%
+	margin: 0
+
+.container
+	display: flex
+	&.flexColumn
+		flex-direction: column
+	.flexAlignMiddle
+		justify-content: center
+		align-items: center
+	.flexFillSpace
+		flex-grow: 1
+
+.quarterHeight
+	height: 25%

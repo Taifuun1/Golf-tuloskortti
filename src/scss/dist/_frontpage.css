@@ -1,0 +1,46 @@
+.frontpage__header {
+  background-color: #020044;
+}
+
+.frontpage__title {
+  color: #FFFFFF;
+  font-size: 36px;
+  text-align: center;
+}
+
+.frontpage__button {
+  font-size: 32px;
+  border-radius: 3px;
+  border: solid 1px #dbd8bf;
+  color: #332e2e;
+  background: linear-gradient(0deg, #34993e 0%, #ffffff 100%);
+  text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+  font-family: ABeeZee;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.frontpage__button:hover {
+  background: linear-gradient(0deg, #ffffff 0%, #34993e 100%);
+}
+.frontpage__button:active {
+  position: relative;
+  top: 1px;
+}
+.frontpage__button > span {
+  display: block;
+}
+
+.frontpage__button-icon {
+  padding: 10px 10px;
+  border-right: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+}
+
+.frontpage__button-text {
+  padding: 12px 10px;
+}
